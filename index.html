@@ -9,7 +9,7 @@
   </head>
   <body>
      <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container">
               <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="">
@@ -23,13 +23,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="#">subscribe</a>
+                    <a class="nav-link text-capitalize" href="#subscribe">subscribe</a>
                   </li>
                  </ul>
               </div>
@@ -41,14 +41,14 @@
           <section class="container my-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner rounded">
-                <div class="carousel-item active bg-info">
+                <div class="carousel-item active caro-sub-background-style">
                   <div class="row p-5">
                     <div class="col-lg-7 d-flex align-items-center">
                       <div>
                         <h1 class="text-capitalize">xbox for your living room</h1>
                         <p class="text-capitalize">this is the best xbox in the world for them who want to waste their time to play games :)</p>
                         <h1>$420</h1>
-                        <button class="btn btn-warning">
+                        <button class="btn sobgula-btn-bg-color">
                           Buy Now
                         </button>
                       </div>
@@ -58,7 +58,7 @@
                     </div>
                   </div>
                  </div>
-                <div class="carousel-item bg-info">
+                <div class="carousel-item caro-sub-background-style">
                   <div class="row p-5">
                     <div class="col-lg-7 d-flex align-items-center">
                       <div>
@@ -75,7 +75,7 @@
                     </div>
                   </div>
                  </div>
-                <div class="carousel-item bg-info">
+                <div class="carousel-item caro-sub-background-style">
                   <div class="row p-5">
                     <div class="col-lg-7 d-flex align-items-center">
                       <div>
@@ -130,7 +130,7 @@
             </div>
             <!-- gutter end -->
           </section>
-         <section class="container my-5">
+         <section class="container my-5" id="shoes">
           <h1>Shoes</h1>
           <!-- shoes card start -->
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -143,7 +143,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color ">Order Now</div>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color ">Order Now</div>
                 </div>
               </div>
             </div><div class="col">
@@ -168,14 +168,16 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color ">Order Now</div>
                 </div>
               </div>
             </div>
            </div>
           <!-- shoes card ends -->
+
+          <!-- Backpack starts here -->
          </section>
-         <section class="container my-5">
+         <section class="container my-5" id="backpack">
           <h1>Bags</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -187,7 +189,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color ">Order Now</div>
                 </div>
               </div>
             </div>
@@ -200,7 +202,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color ">Order Now</div>
                 </div>
               </div>
             </div><div class="col">
@@ -212,13 +214,29 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
-                   <div class="btn btn-primary ">Order Now</div>
+                   <div class="btn sobgula-btn-bg-color">Order Now</div>
                 </div>
               </div>
             </div>
            </div>
          </section>
-     </main>
+          <!-- Backpack ends here -->
+          <section class="container d-flex justify-content-center align-items-center my-5 caro-sub-background-style p-5 rounded-3" id="subscribe">
+            <div>
+              <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sale, offers and more</p>
+            <form>
+              <div class="mb-3"> 
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> 
+              </div> 
+              <button type="submit" class="btn sobgula-btn-bg-color">subscribe</button>
+            </form>
+            </div>
+          </section>
+          <footer class="text-center">
+            <p>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+          </footer>
+      </main>
 
 
 
