@@ -1,10 +1,51 @@
-.caro-sub-background-style{
+.caro-sub-background-style {
     background-color: #fceae8;
 }
-.sobgula-btn-bg-color{
+
+.sobgula-btn-bg-color {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
+}
+
+.header-after {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.header-search {
+    background-color: #F1F1F1;
+    border-radius: 70px;
+}
+
+.header-text ul li{
+    color: #707070;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .card-img-top {
+        width: 350px;
+        height: 250px;
+    }
+
+    .watch-img {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .card-img-top {
+        width: 410px;
+        height: 300px;
+    }
+
+    .watch-img {
+        width: 400px;
+        height: 300px;
+        padding: -30px;
+    }
 }
