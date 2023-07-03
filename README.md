@@ -1,6 +1,6 @@
 # Panda-mart
 
-### Panda-Mart.online responsive website
+### Panda-Mart.online is a responsive website
 
 Developed with
 ```
